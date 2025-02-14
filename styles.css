@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.button-header {
+    background: #6FBF44;
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.img-logo {
+    margin: 163px 0 0 123px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 85px;
+    width: 493px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom: 55px;
+    
+}
+
+.link-main {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .link-header {
+    display: none;
+   } 
+
+   .button-header {
+    width: 150px;
+    height: 58px;
+    font-size: 24px;
+    line-height: 18px;
+    margin: -12px 30px 0 380px;
+    border-radius: 15px;
+   }
+
+   .img-logo {
+    margin: 630px 0 0 50px;
+    position: absolute;
+    width: 500px;
+    height: 470px;
+   }
+
+   h1 {
+    margin-top: 100px;
+    width: 424px;
+    height: 44px;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 50px;
+   }
+
+   p {
+    width: 444px;
+    height: 165px; 
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    margin-top: 100px;
+   }
+
+   .link-main {
+    display: inline-block;
+    width: 170px;
+    height: 27px;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 70px;
+    letter-spacing: 1px;
+    margin-left: 140px;
+   }
+
+}  
